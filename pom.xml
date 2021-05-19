@@ -16,7 +16,7 @@
         <repository>
             <id>github</id>
             <name>Maventest</name>
-            <url>https://maven.pkg.github.com/c-anikethreddy/maventest</url>
+            <url>https://maven.pkg.github.com/anikethreddy-c/test</url>
         </repository>
     </distributionManagement>
     <developers>
@@ -24,12 +24,12 @@
             <name>Aniketh</name>
             <email>c.anikethreddy@gmail.com</email>
             <organization>com.github.c-anikethreddy</organization>
-            <organizationUrl>https://github.com/anikethreddy-c/maventest</organizationUrl>
+            <organizationUrl>https://github.com/anikethreddy-c/test</organizationUrl>
         </developer>
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/ManjunathPrabhakar/github-example-package.git</connection>
+        <connection>scm:git:git remote add origin https://github.com/anikethreddy-c/test.git</connection>
         <developerConnection>scm:git:https://github.com/anikethreddy-c/maventest.git
         </developerConnection>
         <url>https://github.com/anikethreddy-c/maventest</url>
@@ -70,7 +70,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.0.0-M1</version>
+                <version>3.8.1</version>
             </plugin>
         </plugins>
     </build>
